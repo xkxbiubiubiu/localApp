@@ -1,0 +1,22 @@
+<!--pages/my/my.wxml-->
+<!-- container 大盒子 -->
+<view class='container'>
+  <!-- 头像部分 -->
+  <view class='headPic'>
+    <image class='img' src="/assets/1.jpg"></image>
+  </view>
+  <!-- links 跳转链接部分 -->
+  <view class='block'>
+    <view class='arrow'>个人资料</view>
+    <view class='arrow'>我的优惠券</view>
+  </view>
+  <view class='block'>
+    <view class='arrow'>常见问题</view>
+    <view class='arrow'>使用条款</view>
+    <view class='arrow'>隐私权政策</view>
+    <view class='arrow'>联系客服</view>
+  </view>
+  <view class='block'>
+    <view class='arrow'>设置</view>
+  </view>
+</view>

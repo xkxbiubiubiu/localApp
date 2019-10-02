@@ -1,0 +1,70 @@
+/* pages/list/list.wxss */
+
+.container {
+  padding: 20rpx;
+}
+navigator{
+  margin: 20rpx 0;
+  padding: 20rpx 0;
+  border-bottom: 1rpx solid #ccc;
+}
+navigator:first-child{
+  margin-top: 0;
+}
+navigator .left {
+  width: 30%;
+  height: 200rpx;
+  float: left;
+}
+
+navigator .left image {
+  width: 100%;
+  height: 100%;
+}
+
+navigator .right {
+  width: 70%;
+  float: left;
+  padding-left: 20rpx;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.right .title {
+  font-size: 34rpx;
+  width: 60%;
+}
+
+.right .right-msg {
+  font-size: 28rpx;
+  color: #555;
+}
+
+.right .address {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.right-msg view {
+  padding: 8rpx 0;
+}
+
+.star-box {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.star-box .grey-star {
+  position: relative;
+  color: #ccc;
+}
+
+.star-box .orange-star {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: orange;
+  overflow: hidden;
+}

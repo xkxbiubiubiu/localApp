@@ -1,0 +1,24 @@
+<!--pages/list/list.wxml-->
+<view class='container'>
+  <navigator wx:for="{{list}}" class='clearfix' data-detail="{{item}}" bindtap='setDetail' url='/pages/detail/detail'>
+    <!-- 左侧图片盒子 -->
+    <view class='left'>
+      <image src='{{item.images[0]}}'></image>
+    </view>
+    <!-- 右侧信息盒子 -->
+    <view class='right'>
+      <view class='title'>
+        {{item.name}}
+      </view>
+      <view class='right-msg'>
+        <view class='phone'>电话：{{item.phone}}</view>
+        <view class='address'>地址：{{item.address}}</view>
+        <view class='date'>时间：{{item.businessHours}}</view>
+      </view>
+      <view class='star-box'>
+        <view class='grey-star'>★★★★★</view>
+        <view class='orange-star' style="width: {{item.score}}%">★★★★★</view>
+      </view>
+    </view>
+  </navigator>
+</view>

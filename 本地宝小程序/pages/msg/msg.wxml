@@ -1,0 +1,85 @@
+<!--pages/msg/msg.wxml-->
+<!-- 大容器 -->
+<view class='cardList'>
+  <!-- 列表渲染每一项的卡片 -->
+  <view class='card'>
+    <!-- 头部 -->
+    <view class='card-title'>
+      <view class='title'>海贼王！伟大航线！</view>
+      <view class='date'>2018-09-01</view>
+    </view>
+    <!-- 中间部分 -->
+    <view class='card-img'>
+      <image src='../../assets/1.jpg'></image>
+      <view>达拉达拉达拉</view>
+    </view>
+    <!-- 阅读全文 -->
+    <view class='readAll arrow'>
+      Read All~
+    </view>
+  </view>
+  <view class='card'>
+    <!-- 头部 -->
+    <view class='card-title'>
+      <view class='title'>海贼王！伟大航线！</view>
+      <view class='date'>2018-09-01</view>
+    </view>
+    <!-- 中间部分 -->
+    <view class='card-img'>
+      <image src='../../assets/1.jpg'></image>
+      <view>达拉达拉达拉</view>
+    </view>
+    <!-- 阅读全文 -->
+    <view class='readAll arrow'>
+      Read All~
+    </view>
+  </view>
+  <view class='card'>
+    <!-- 头部 -->
+    <view class='card-title'>
+      <view class='title'>海贼王！伟大航线！</view>
+      <view class='date'>2018-09-01</view>
+    </view>
+    <!-- 中间部分 -->
+    <view class='card-img'>
+      <image src='../../assets/1.jpg'></image>
+      <view>达拉达拉达拉</view>
+    </view>
+    <!-- 阅读全文 -->
+    <view class='readAll arrow'>
+      Read All~
+    </view>
+  </view>
+  <view class='card'>
+    <!-- 头部 -->
+    <view class='card-title'>
+      <view class='title'>海贼王！伟大航线！</view>
+      <view class='date'>2018-09-01</view>
+    </view>
+    <!-- 中间部分 -->
+    <view class='card-img'>
+      <image src='../../assets/1.jpg'></image>
+      <view>达拉达拉达拉</view>
+    </view>
+    <!-- 阅读全文 -->
+    <view class='readAll arrow'>
+      Read All~
+    </view>
+  </view>
+  <view class='card'>
+    <!-- 头部 -->
+    <view class='card-title'>
+      <view class='title'>海贼王！伟大航线！</view>
+      <view class='date'>2018-09-01</view>
+    </view>
+    <!-- 中间部分 -->
+    <view class='card-img'>
+      <image src='../../assets/1.jpg'></image>
+      <view>达拉达拉达拉</view>
+    </view>
+    <!-- 阅读全文 -->
+    <view class='readAll arrow'>
+      Read All~
+    </view>
+  </view>
+</view>

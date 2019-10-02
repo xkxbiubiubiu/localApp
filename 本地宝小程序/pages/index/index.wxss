@@ -1,0 +1,49 @@
+
+swiper{
+  height: 380rpx;
+}
+swiper image{
+  width: 100%;
+  height: 400rpx;
+}
+
+/* 九宫格部分 */
+.navList{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40rpx;
+}
+.navList navigator{
+  width: 33.33%;
+  text-align: center;
+  color: #555;
+  font-size: 30rpx;
+  padding: 20rpx 0;
+  border-right: 1rpx solid #ccc;
+  border-bottom: 1rpx solid #ccc;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.navList navigator:nth-child(3n){
+  border-right: none;
+}
+.navList navigator image{
+  width: 30%;
+  height: 60rpx;
+}
+
+.sug{
+  padding: 0 15rpx;
+}
+.sug navigator:nth-child(1){
+  width: 48%;
+  float: left;
+}
+.sug navigator:nth-child(2){
+  width: 48%;
+  float: right;
+}
+.sug navigator image{
+  width: 100%;
+  height: 200rpx;
+}

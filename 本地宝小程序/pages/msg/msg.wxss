@@ -1,0 +1,36 @@
+/* pages/msg/msg.wxss */
+page{
+  padding: 30rpx;
+  /* css3 box-sizing: border-box; border padding 不会撑开盒子 */
+  box-sizing: border-box;
+}
+.card{
+  background-color: #fff;
+  border: 1rpx solid #ccc;
+  border-radius: 20rpx;
+  padding: 20rpx;
+  margin-bottom: 30rpx;
+}
+.card-title .title{
+  font-size: 46rpx;
+  padding-top: 10rpx;
+}
+.card-title .date{
+  font-size: 34rpx;
+  color: #666;
+  padding: 20rpx 0;
+  border-bottom: 1rpx solid #ccc;
+}
+.card-img image{
+  width: 100%;
+  margin-top: 30rpx;
+}
+.card-img view:last-child{
+  padding: 20rpx 0;
+}
+.card-img{
+  border-bottom: 1rpx solid #ccc;
+}
+.readAll{
+  padding-top: 10rpx;
+}

@@ -1,0 +1,26 @@
+<!--pages/detail/detail.wxml-->
+<!-- container -->
+<view class='container'>
+  <image src="{{detail.images[3]}}" class='bannerImg'></image>
+  <!-- 商家信息部分 -->
+  <view class='storeMsg'>
+    <view class='title'>{{detail.name}}</view>
+    <view>电话：{{detail.phone}}</view>
+    <view>地址：{{detail.address}}</view>
+    <view>营业时间：{{detail.businessHours}}</view>
+  </view>
+  <view class='commentsList'>
+    <view class='sug' wx:for="{{detail.comments}}">
+      <view class='nickName'>
+        {{item.name}}
+      </view>
+      <view class='comment'>
+      {{item.content}}
+      </view>
+      <view class='date'>
+        <view class='rate'>{{item.rating}}</view>
+        <view class='time'>{{item.date}}</view>
+      </view>
+    </view>
+  </view>
+</view>
